@@ -12,6 +12,6 @@
     <string name="crashhandler_notification_discard">Discard</string>
 
     <!-- REPLACEMENT FOR TUSKY STRINGS -->
-    <string name="tusky_website" translatable="false">https://husky.adol.pw</string>
+    <string name="tusky_website" translatable="false">https://koyu.space</string>
 
 </resources>

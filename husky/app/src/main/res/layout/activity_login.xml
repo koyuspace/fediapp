@@ -43,6 +43,7 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:hint="@string/hint_domain"
+                    android:visibility="invisible"
                     app:errorEnabled="true">
 
                     <com.google.android.material.textfield.TextInputEditText
@@ -50,7 +51,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
-                        android:inputType="textUri" />
+                        android:inputType="textUri"
+                        android:text="fedi.koyu.space"
+                        android:visibility="visible" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <LinearLayout
@@ -89,34 +92,19 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:ems="10"
-                            android:inputType="textUri" />
+                            android:inputType="textUri"
+                            android:text="https://koyu.space" />
                     </com.google.android.material.textfield.TextInputLayout>
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/loginButton"
+                    style="@style/TuskyButton"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:orientation="horizontal">
-
-                    <com.google.android.material.button.MaterialButton
-                        android:id="@+id/loginButton"
-                        style="@style/TuskyButton"
-                        android:layout_width="210dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="8dp"
-                        android:gravity="center"
-                        android:text="@string/action_login" />
-
-                    <com.google.android.material.button.MaterialButton
-                        android:id="@+id/settingsButton"
-                        style="@style/TuskyButton"
-                        android:layout_width="32dp"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="4dp"
-                        app:icon="@drawable/ic_settings" />
-                </LinearLayout>
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:text="@string/action_login" />
 
                 <TextView
                     android:id="@+id/whatsAnInstanceTextView"
@@ -124,7 +112,18 @@
                     android:layout_height="wrap_content"
                     android:paddingTop="8dp"
                     android:text="@string/link_whats_an_instance"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:visibility="invisible" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/settingsButton"
+                    style="@style/TuskyButton"
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:visibility="invisible"
+                    app:icon="@drawable/ic_settings" />
             </LinearLayout>
 
             <LinearLayout

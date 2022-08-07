@@ -62,7 +62,7 @@
     <string name="action_unfavourite">Favorisierung entfernen</string>
     <string name="action_more">Mehr</string>
     <string name="action_compose">Beitrag erstellen</string>
-    <string name="action_login">Anmelden mit Mastodon</string>
+    <string name="action_login">Anmelden mit koyu.space</string>
     <string name="action_logout">Ausloggen</string>
     <string name="action_logout_confirm">Bist du sicher, dass du dich aus dem Konto %1$s ausloggen möchtest\?</string>
     <string name="action_follow">Folgen</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Husky</string>
+    <string name="app_name">koyu.space</string>
 
     <string name="error_generic">An error occurred.</string>
     <string name="error_network">A network error occurred! Please check your connection and try again!</string>
@@ -78,7 +78,7 @@
     <string name="action_unfavourite">Remove favorite</string>
     <string name="action_more">More</string>
     <string name="action_compose">Compose</string>
-    <string name="action_login">Login with Mastodon</string>
+    <string name="action_login">Login with koyu.space</string>
     <string name="action_logout">Log Out</string>
     <string name="action_logout_confirm">Are you sure you want to log out of the account %1$s?</string>
     <string name="action_follow">Follow</string>

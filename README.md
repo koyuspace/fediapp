@@ -1,12 +1,13 @@
-# Husky
+<img
+  align="right"
+  src="https://content.koyu.space/img/pb-icon_small-rendered.png"
+/>
 
-[![builds.sr.ht status](https://builds.sr.ht/~captainepoch/husky/commits.svg)](https://builds.sr.ht/~captainepoch/husky)
-[![Download F-Droid](https://img.shields.io/badge/Download-F--Droid-blue)][husky_fdroid]
-[![Download Google Play](https://img.shields.io/badge/Download-Play-blue)][husky_playstore]
+# koyu.space for Android
 
 Husky is a fork of [Tusky][tusky_github] aimed to support [Pleroma's
 Mastodon API extensions][mastodon_api_extensions] and whatever could add value
-to the application.
+to the application. This fork adds the overall theming and branding of koyu.space.
 
 # Main changes so far
 
@@ -26,24 +27,12 @@ to the application.
 - Bigger emojis!.
 - "Preview" feature on Pleroma.
 
-# Support
-
-Please take a look at [Husky documentation][husky_man] to contribute to the
-project:
-
-- See [Contributing][husky_man_contributing] to send emails and see the
-  discussion about issues and new stuff in the project.
-- See [Bug reports][husky_man_bugreport] to report bugs and see TODOs.
-
-Current issue tracker is at [todo.sr.ht/~captainepoch/husky][husky_todo].
-
-Original tracker with issues is at
-[git.mentality.rip/FWGS/Husky/issues][husky_original_issues].
-
 # Acknowledgements
 
-The current maintainer is [captainepoch@stereophonic.space][husky_maintainer].
-The previous maintainer is
+This fork is maintained by the koyu.space community. Anyone is free to contribute.
+
+The current maintainer of Husky is [captainepoch@stereophonic.space][husky_maintainer].
+The previous maintainer was
 [a1ba@expired.mentality.rip][husky_previous_maintainer].
 
 The original app was developed by
